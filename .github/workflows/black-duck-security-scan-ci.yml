@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: COLT DILLION HARTLEY 
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       - name: Black Duck Scan
         uses: blackducksoftware/hub-detect@v2.0.0
