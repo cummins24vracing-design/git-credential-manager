@@ -22,7 +22,7 @@ jobs:
           projectVersion: '1.0'
 
       - name: Upload Black Duck report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v7
         with:
           name: black-duck-report
           path: ./path-to-report-directory
