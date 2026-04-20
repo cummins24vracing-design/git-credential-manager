@@ -11,14 +11,14 @@ jobs:
   black-duck-security-scan:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: COLT DILLION HARTLEY 
         uses: actions/checkout@v2
 
       - name: Black Duck Scan
         uses: blackducksoftware/hub-detect@v2.0.0
         with:
           scanType: full
-          projectName: 'Your Project Name'
+          projectName: 'Car Diagnostics'
           projectVersion: '1.0'
 
       - name: Upload Black Duck report
