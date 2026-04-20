@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Black Duck Scan
-        uses: blackducksoftware/hub-detect@v2.0.0
+        uses: blackducksoftware/hub-detect@5.3.0
         with:
           scanType: full
           projectName: 'Car Diagnostics'
